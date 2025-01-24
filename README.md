@@ -6,6 +6,7 @@ name to the server. The server then responds with a greeting
 message that is displayed on the page.
 
 Steps:
+Run the appl from src/main/java
 1. setup the tomcat env variable as CATALINA_HOME then add %CATALINA_HOME%/bin in PATH variable.
 2. javac -cp "%CATALINA_HOME%\lib\servlet-api.jar" -d ../webapp/WEB-INF/classes com/example/HelloServlet.java - to compile the code
 3. jar -cvf webapp.war -C ../webapp . - to build the code it generates webapp.jar file in current dir
@@ -16,7 +17,7 @@ Steps:
 
 folder structure:
 
-MyWebApp/
+WebApp/
 ├── src/
 │   ├── main/
 │       ├── java/
